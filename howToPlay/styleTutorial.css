@@ -1,0 +1,87 @@
+body{
+    background-color: #222222;
+    font-family: 'Lato', sans-serif;
+}
+.mainContainer{
+    align-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 150px;
+    width: 1000px;
+    height: 600px;
+    -webkit-box-shadow: 0px 0px 5px 2px rgba(0,0,0,0.7);
+    box-shadow: 0px 0px 5px 2px rgba(0,0,0,0.7);
+}
+.title{
+    width: 1000px;
+    height: 50px;
+    padding: 50px;
+    font-size: 60px;
+    color: #dddddd;
+    transition: 1s;
+}
+.bottomContainer{
+    height: 225px;
+}
+.containText{
+    float: left;
+    width: 400px;
+    height: 200px;
+    margin-left: 20px;
+    -webkit-box-shadow: 0px 0px 5px 2px rgba(0,0,0,0.7);
+    box-shadow: 0px 0px 5px 2px rgba(0,0,0,0.7);
+    color: #dddddd;
+    background-color: #555555;
+    transition: 1s;
+}
+.containText:hover{
+    transform: scale(1.1);
+    z-index: 2;
+}
+.textContainer{
+    font-size: 25px;
+    width: 325px;
+    padding: 25px;
+    margin-left: 25px;
+}
+.imageBox{
+    margin-right: 200px;
+    float: right;
+    width: 255px;
+    transition: 1s;
+}
+.imageBox:hover{
+    transform: scale(1.1);
+    z-index: 2;
+}
+.nextButton{
+    margin-left: 60px;
+    margin-top: 50px;
+    width: 60%;
+    transition: 1s;
+}
+
+.nextButton:hover{
+    transform: scale(1.1);
+    z-index: 2;
+}
+input[type = button]{
+    width: 300px;
+    height: 100px;
+    font-size: 50px;
+    padding: 15px 10px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 5px;
+    letter-spacing: 2px;
+    cursor: pointer;
+    background-color: #555555;
+    color: #ffffff;
+}
+input[type = button]:focus{
+    -webkit-box-shadow: 0px 0px 5px 2px rgba(0,0,0,0.7);
+    box-shadow: 0px 0px 5px 2px rgba(0,0,0,0.7);
+}
+input[type = button]:hover{
+    background-color: #444444;
+}

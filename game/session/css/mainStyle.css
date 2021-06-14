@@ -1,0 +1,114 @@
+body{
+    background-color: #222222;
+    font-family: 'Lato', sans-serif;
+}
+.mainContainer{
+    align-content: center;
+    background-color: #222222;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 150px;
+    width: 1000px;
+    height: 600px;
+    -webkit-box-shadow: 0px 0px 5px 2px rgba(0,0,0,0.7);
+    box-shadow: 0px 0px 5px 2px rgba(0,0,0,0.7);
+}
+.mainTitle{
+    width: 1000px;
+    height: 200px;
+    font-size: 60px;
+    color: white;
+}
+.title{
+    width: 400px;
+    padding: 50px;
+    float: left;
+    background-color: #222222;
+}
+.userBox{
+    font-size: 30px;
+    width: 400px;
+    height: 80px;
+    padding: 50px;
+    float: left;
+    letter-spacing: 2px;
+    background-color: #333333;
+}
+.userGui{
+    height: 400px;
+}
+.windows{
+    width: 1000px;
+    height: 180px;
+    color: white;
+}
+.window{
+    padding: 10px;
+    width: 180px;
+    height: 180px;
+    transition: 1s;
+    float: right;
+    font-size: 20px;
+}
+.windowLeft{
+    padding: 10px;
+    width: 180px;
+    height: 180px;
+    background-color: #222222;
+    transition: 1s;
+    float: left;
+}
+/*
+.window:hover{
+    -webkit-box-shadow: 0px 0px 5px 2px rgba(0,0,0,0.7);
+    box-shadow: 0px 0px 5px 2px rgba(0,0,0,0.7);
+    transform: scale(1.3);
+    z-index: 3;
+}
+ */
+#animate{
+    filter: grayscale(100%);
+    transition: 1s;
+}
+#animate:hover{
+    filter: grayscale(0%);
+    transform: scale(1.3);
+    z-index: 3;
+}
+input[type = button],
+[type = submit]{
+    width: 300px;
+    height: 50px;
+    font-size: 25px;
+    padding: 15px 10px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 5px;
+    letter-spacing: 2px;
+    cursor: pointer;
+    background-color: #555555;
+    color: #ffffff;
+}
+input[type = button]:focus{
+    -webkit-box-shadow: 0px 0px 5px 2px rgba(0,0,0,0.7);
+    box-shadow: 0px 0px 5px 2px rgba(0,0,0,0.7);
+}
+input[type = button]:hover{
+    background-color: #444444;
+}
+input[type = submit]:hover{
+    background-color: #444444;
+}
+input[type = submit]:focus{
+    -webkit-box-shadow: 0px 0px 5px 2px rgba(0,0,0,0.7);
+    box-shadow: 0px 0px 5px 2px rgba(0,0,0,0.7);
+}
+a:link{
+    color: white;
+}
+a:visited{
+    color: white;
+}
+a:hover{
+    color: #999999;
+}

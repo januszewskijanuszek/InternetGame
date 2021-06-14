@@ -1,0 +1,12 @@
+buttonMenu <- Name of all buttons using to setup game
+
+mainContainer <- main mainContainer
+contain <- major container
+title <- title of page
+
+#howToPlay
+nextButton <- button down the list
+
+jeśli nie jesteśmy zalogowani przenieś do pliku index.php
+jeśli jesteśmy zalogowani udaj się do pliku mainGame.php
+jeśli nie ustanowiono loginu ani hasla udaj się do pliku index.php
